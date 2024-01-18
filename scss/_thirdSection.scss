@@ -1,0 +1,62 @@
+.third-section {
+    margin-bottom: 186px;
+    position: relative;
+    h2 {
+        margin-top: 10px; 
+        margin-bottom: 68px;
+     }
+    :nth-child(1) {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .decore {
+        position: absolute;
+        top: 53%;
+        left: 91%;
+        z-index: -5;
+    }
+
+    .italty, .london, .europe {
+        min-width: 315px;
+        height: 457px;
+        box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    }
+
+    .travel {
+        transition: scale 1s, font-weight 0.3s, font-weight 0.3s;
+        cursor: pointer;
+        &:hover{
+            scale: 1.1;   
+        }
+        p:hover {
+            font-weight: 500;
+            color: #DF6951; 
+        }
+    }
+    .flex-horizontal {
+        gap: 36px;
+    }
+    .flex-colum {
+        justify-content: flex-end;
+    }
+    .wrap-text-trevel {
+        background-color: #fff;
+        width: 100%;
+        padding: 27px 25px 42px 20px;
+        border-radius: 0px 0px 24px 24px;
+        .right-text {
+            justify-content: flex-start; 
+            margin-top: 19px;
+        }
+    }
+    .italty {
+        background: url("../img/Coliseum.png") top / 150% no-repeat border-box;
+    }
+    .london {
+        background: url("../img/London.png") top / 150% no-repeat border-box;
+    }
+    .europe {
+        background: url("../img/Europe.png") top / 150% no-repeat border-box;
+    }
+}

@@ -1,0 +1,134 @@
+.first-section {
+    margin-bottom: 105px;
+
+    h1 {
+        margin-bottom: 24px;
+    }
+
+    span {
+        font-size: 17px;
+    }
+
+    p {
+        color: $text-color;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 34px;
+    }
+
+    .flex-horizontal {
+        justify-content: flex-start;
+        color: #686D77;
+    }
+
+    .weight-text {
+        font-family: Volkhov;
+        font-size: 84px;
+        font-weight: 700;
+        line-height: 1.05;
+        letter-spacing: -3.36px;
+        margin-bottom: 30px;
+        color: #181E4B;
+    }
+
+
+    .block-width-text {
+        width: 680px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+
+        .line {
+            position: relative;
+            font-size: 84px;
+        }
+
+        .line::before {
+            content: "";
+            display: block;
+            background-image: url('../img/Vector.png');
+            width: 290px;
+            height: 15px;
+            position: absolute;
+            left: -10%;
+            top: 75%;
+            z-index: -5;
+        }
+
+        a {
+            min-width: 170px;
+            border-radius: 10px;
+            background-color: #F1A501;
+            box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+            color: #fff;
+            padding: 19px 26px 18px 27px;
+            display: inline-block;
+            margin-right: 44px;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #df6951;
+    
+            }
+        }
+
+        button {
+            min-width: 52px;
+            min-height: 52px;
+            border-radius: 50%;
+            background-color: #DF6951;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 21px;
+            box-shadow: 0px 20px 35px 0px #df695157;
+            transition: background-color 0.3s;
+            &:hover {
+                background-color: #F1A501;
+            }
+        }
+
+    }
+
+    .block-width-img {
+        position: relative;
+        width: 750px;
+        min-height: 764px;
+
+        &:hover .plane-one {
+            transform: translate(200px, -150px);
+            opacity: 0;
+        }
+
+        &:hover .plane-two {
+            transform: translate(200px, -50px);
+            opacity: 0;
+        }
+
+        .traveller {
+            position: absolute;
+            z-index: 10;
+            left: -18%;
+            top: -1%;
+        }
+
+        .plane-one {
+            position: absolute;
+            top: 7%;
+            left: 5%;
+            transition: transform 3s, opacity 2.5s;
+            opacity: 1;
+        }
+
+        .plane-two {
+            position: absolute;
+            top: 14%;
+            left: 83%;
+            z-index: 5;
+            transition: transform 2s, opacity 2.5s;
+        }
+    }
+
+}
