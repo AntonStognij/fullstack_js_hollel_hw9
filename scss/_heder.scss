@@ -1,0 +1,75 @@
+.heder {
+    padding-top: 56px;
+    padding-bottom: 27px;
+
+    img {
+        width: 114px;
+    }
+}
+
+.navigation {
+    font-size: 17px;
+    font-weight: 400;
+    color: $base-color;
+
+    a {
+        transition: font-weight 0.3s, color 0.3s, text-shadow 0.3s;
+        &:hover {
+            font-weight: 500;
+            color: #DF6951;
+            text-shadow: 0px -7px 1px rgb(190, 25, 25), 0 0 1em #2424dd, 0 0 0.2em #d7df79ef;
+        }
+    }
+
+    
+
+    li:nth-child(2) {
+        margin-left: 55px;
+    }
+
+    li:nth-child(3) {
+        margin-left: 64px;
+    }
+
+    li:nth-child(4) {
+        margin-left: 62px;
+    }
+
+    li:nth-child(5) {
+        margin-left: 86px;
+    }
+
+    li:nth-child(6) {
+        margin-left: 74px;
+    }
+
+    li:nth-child(7) {
+        margin-left: 63px;
+
+    }
+
+    select {
+        border: none;
+        background: inherit;
+    }
+
+    .btn {
+        border-radius: 5px;
+        border: 1px solid $base-color;
+        color: $base-color;
+        min-width: 102px;
+        padding: 9px 21px;
+        cursor: pointer;
+        transform: background-color 0.7s, color 0.4s;
+        &:hover {
+            background-color:  #df6951;
+            color: #fff;
+        }
+    }
+
+    
+
+    .weight {
+        font-weight: 500;
+    }
+}
